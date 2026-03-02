@@ -18,7 +18,11 @@ dependencies:
     sdk: flutter
   flutter_secure_storage: '>=9.2.4 <11.0.0'
   meta: ^1.15.0
-  serverpod_auth_core_client: 3.3.1
+  serverpod_auth_core_client:
+    git:
+      url: https://github.com/RunnerDu67/serverpod.git
+      ref: microsoft_idp
+      path: modules/serverpod_auth/serverpod_auth_core/serverpod_auth_core_client/
 
 dev_dependencies:
   flutter_test:
