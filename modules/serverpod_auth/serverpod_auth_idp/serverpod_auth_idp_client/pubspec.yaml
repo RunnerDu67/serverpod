@@ -10,7 +10,11 @@ environment:
   sdk: '^3.8.0'
 
 dependencies:
-  serverpod_auth_core_client: 3.3.1
+  serverpod_auth_core_client:
+    git:
+      url: https://github.com/RunnerDu67/serverpod.git
+      ref: microsoft_idp
+      path: modules/serverpod_auth/serverpod_auth_core/serverpod_auth_core_client/
   serverpod_client: 3.3.1
 
 dependency_overrides:
